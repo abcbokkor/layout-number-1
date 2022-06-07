@@ -1,0 +1,133 @@
+*{
+    margin: 0 px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+header{
+    overflow: hidden;
+    background-color: #f9baa1;
+    
+}
+header .logo{
+    width: 20%;
+    float: left;
+}
+header .logo img{
+    width: 130px;
+}
+
+
+header .frist-section{
+    width: 80%;
+    float: Right;
+}
+
+header .frist-section ul{
+    list-style-type: none;
+
+}
+header .frist-section ul li{
+    float: left;
+}
+header  ul li a{
+    display: block;
+    text-decoration: none;
+    padding:18px 15px;
+    font-size: 24px;
+    color: rgb(243, 240, 240);
+}
+header .frist-section ul li a:hover{
+    background: rgb(235, 16, 16);
+}
+
+/*close header*/
+
+/*start menu*/
+#bgimage{
+    background-image:url(Images/hack\ \(2\).jpg) ;
+   
+    width: 100%;
+    background-position: center;
+}
+#bgimage h1{
+    
+    padding: 290px 70px ;
+    text-align: center;
+    color: rgb(69, 218, 10);
+    font-size: 70px;
+    margin: 0px;
+}
+/*bg image close style*/
+
+/*start mainarea*/
+
+#mainarea div{
+    overflow: hidden;
+    width: 32.58%;
+    float: left;
+    margin: 7px 4px;
+    padding: 20px;
+    text-align: center;
+}
+/*box1 css start*/
+
+section  .box1{
+background-color: 	rgb(255, 255, 0);
+
+}
+section  .box1 h1{
+    color: rgb(233, 7, 83);
+}
+
+section  .box1:hover{
+ background: violet;
+
+
+}
+
+/*box1 css close*/
+
+/*box2 css start*/
+
+section  .box2{
+     background-color: aqua;
+}
+section  .box2 h1{
+    color: #19cf23;
+}
+section  .box2:hover{
+    background: rgb(236, 245, 238);
+    
+   
+   }
+   /*box2css close*/
+
+/*box3 css start*/
+
+section  .box3{
+    background-color: rgb(208, 199, 218);
+}
+section  .box3 h1{
+    color: brown;
+}
+section  .box3:hover{
+    background: rgb(88, 9, 88);
+    transform: scale(1);
+  
+}
+   /*box3 css close*/
+
+
+/*start fotter css*/
+
+
+footer{
+    background-color: rgb(17, 16, 16);
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
